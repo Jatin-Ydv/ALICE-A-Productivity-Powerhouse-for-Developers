@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "ES6",
+		"outDir": "out",
+		"rootDir": "src",
+		"sourceMap": true,
+		"strict": true,
+		"esModuleInterop": true, // Ensures compatibility with CommonJS modules
+		"resolveJsonModule": true, // If you're dealing with JSON imports
+	},
+	"exclude": [
+		"node_modules",
+		".vscode-test"
+	]
+}

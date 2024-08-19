@@ -1,0 +1,10 @@
+..#
+.vscode
+node_modules
+VOICE-ASSISTANT/__pycache__
+VOICE-ASSISTANT/.venv
+VOICE-ASSISTANT/.env
+VOICE-ASSISTANT/utils/__pycache__
+VOICE-ASSISTANT/FT-data.json
+VOICE-ASSISTANT/temp.txt
+VOICE-ASSISTANT/test.ipynb
