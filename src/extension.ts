@@ -4,7 +4,7 @@ import * as path from 'path';
 
 export function activate(context: vscode.ExtensionContext) {
 	const pythonPath = 'python'; // Adjust this if a specific Python interpreter is needed
-	const requirementsPath = context.asAbsolutePath(path.join('VOICE-ASSISTANT', 'requirements.txt'));
+	const requirementsPath = context.asAbsolutePath(path.join('ALICE-CORE', 'requirements.txt'));
 
 	// Function to install requirements
 	const installRequirements = () => {
@@ -22,7 +22,7 @@ export function activate(context: vscode.ExtensionContext) {
 	const startAlice = vscode.commands.registerCommand('extension.startALICE', () => {
 		installRequirements();
 		vscode.window.showInformationMessage('ALICE is waking up...');
-		const aliceScript = context.asAbsolutePath('VOICE-ASSISTANT/assistant.py');
+		const aliceScript = context.asAbsolutePath('ALICE-CORE/assistant.py');
 		exec(`${pythonPath} ${aliceScript}`, { cwd: context.extensionPath }, (error: ExecException | null, stdout: string, stderr: string) => {
 			if (error) {
 				vscode.window.showErrorMessage(`ALICE Error: ${stderr}`);
