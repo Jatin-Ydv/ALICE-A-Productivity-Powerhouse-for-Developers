@@ -4,6 +4,14 @@
 
 ---
 
+## 🔗 Building on Previous Work
+
+**ALICE - A Productivity Powerhouse for Developers** builds on the foundation laid by my earlier project, [ALICE v2](https://github.com/Jatin-Ydv/ALICE-v2-A-Multipurpose-AI-Assistant). This previous work focused on creating an all-encompassing AI companion with a range of features designed to enhance productivity and streamline daily tasks. 
+
+By integrating these capabilities into a Visual Studio Code extension, I've extended **ALICE v2**'s functionalities to your development environment. The extension enhances the developer experience directly within VSCode, combining the productivity tools of the original **ALICE v2** with the efficiency of an IDE extension.
+
+---
+
 ## ✨ Features
 
 ### ⚡ General Queries
