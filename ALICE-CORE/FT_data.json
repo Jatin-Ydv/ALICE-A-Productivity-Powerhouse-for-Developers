@@ -1,0 +1,279 @@
+[
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "What's the weather like in New York tomorrow?",
+        "output": {
+            "function": "check weather",
+            "parameters": {
+                "time": "tomorrow",
+                "location": "New York"
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Can you take a screenshot?",
+        "output": {
+            "function": "take screenshot",
+            "parameters": {}
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Can you guess what project I'm working on?",
+        "output": {
+            "function": "take screenshot",
+            "parameters": {}
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Play Shape of you by Ed Sheeran.",
+        "output": {
+            "function": "play song",
+            "parameters": {
+                "song": "Shape of you",
+                "artist": "Ed Sheeran"
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Play Hello by Adele.",
+        "output": {
+            "function": "play song",
+            "parameters": {
+                "song": "Hello",
+                "artist": "Adele"
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Play Treat you better.",
+        "output": {
+            "function": "play song",
+            "parameters": {
+                "song": "Treat you better"
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Please capture a photo.",
+        "output": {
+            "function": "capture webcam",
+            "parameters": {}
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "What do you see on my webcam?",
+        "output": {
+            "function": "capture webcam",
+            "parameters": {}
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "What do I have in my clipboard?",
+        "output": {
+            "function": "extract clipboard",
+            "parameters": {}
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Get my recent two emails.",
+        "output": {
+            "function": "check mails",
+            "parameters": {
+                "n": 2
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Summarize my recent email.",
+        "output": {
+            "function": "check mails",
+            "parameters": {
+                "n": 1
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Hello, how are you?",
+        "output": {
+            "function": "None",
+            "parameters": {}
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "What do you think about technology?",
+        "output": {
+            "function": "None",
+            "parameters": {}
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "What's the latest business news in the US?",
+        "output": {
+            "function": "check news",
+            "parameters": {
+                "country": "us",
+                "category": "business"
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Show me the top headlines from BBC News.",
+        "output": {
+            "function": "check news",
+            "parameters": {
+                "sources": "bbc-news"
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "What's happening in technology today?",
+        "output": {
+            "function": "check news",
+            "parameters": {
+                "category": "technology"
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Create a new task to buy groceries tomorrow with priority 1.",
+        "output": {
+            "function": "manage tasks",
+            "parameters": {
+                "content": "buy groceries",
+                "due_string": "tomorrow",
+                "priority": 1
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Show me all my tasks.",
+        "output": {
+            "function": "manage tasks",
+            "parameters": {}
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Get the details of the task with title 'Buy Groceries'.",
+        "output": {
+            "function": "manage tasks",
+            "parameters": {
+                "task_title": "Buy Groceries"
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Update the task with title 'Buy Groceries' to 'Buy groceries and cook dinner' with priority 2.",
+        "output": {
+            "function": "manage tasks",
+            "parameters": {}
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Delete the task with title 'Buy Groceries'.",
+        "output": {
+            "function": "manage tasks",
+            "parameters": {
+                "task_title": "Buy Groceries"
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Show me the most urgent tasks.",
+        "output": {
+            "function": "manage tasks",
+            "parameters": {}
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Set a timer for ten seconds.",
+        "output": {
+            "function": "set timer",
+            "parameters": {
+                "second": 10
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Set a timer for one minute and ten seconds.",
+        "output": {
+            "function": "set timer",
+            "parameters": {
+                "minute": 1,
+                "second": 10
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Set a timer for one minute.",
+        "output": {
+            "function": "set timer",
+            "parameters": {
+                "minute": 1
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Set a timer for two hours.",
+        "output": {
+            "function": "set timer",
+            "parameters": {
+                "hour": 2
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "Capture an image from my webcam.",
+        "output": {
+            "function": "capture webcam",
+            "parameters": {}
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "What's the weather like in New York today?",
+        "output": {
+            "function": "check weather",
+            "parameters": {
+                "location": "New York",
+                "time": "today"
+            }
+        }
+    },
+    {
+        "instruction": "You are an AI function calling model. You will determine whether extracting the user's clipboard content, taking a screenshot, capturing the webcam, checking the weather, checking the news, playing a song, managing tasks, checking emails, or calling no functions is best for a voice assistant to respond to the user's prompt. The webcam can be assumed to be a normal laptop webcam facing the user. If the best response involves checking the weather or news, include the required parameters like time and location. You will respond with a JSON object containing the function name and parameters. The available functions are: ['extract clipboard', 'take screenshot', 'play song', 'capture webcam', 'check weather', 'check news', 'manage tasks', 'check mails', 'None']. Format your response as follows: { 'function': 'function_name', 'parameters': { 'parameter1': 'value1', 'parameter2': 'value2', ... } }",
+        "input": "What's the weather like tomorrow in Los Angeles?",
+        "output": {
+            "function": "check weather",
+            "parameters": {
+                "location": "Los Angeles",
+                "time": "tomorrow"
+            }
+        }
+    }
+]

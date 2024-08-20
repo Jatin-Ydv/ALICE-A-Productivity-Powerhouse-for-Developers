@@ -1,10 +1,10 @@
 ..#
 .vscode
 node_modules
-VOICE-ASSISTANT/__pycache__
-VOICE-ASSISTANT/.venv
-VOICE-ASSISTANT/.env
-VOICE-ASSISTANT/utils/__pycache__
-VOICE-ASSISTANT/FT-data.json
-VOICE-ASSISTANT/temp.txt
-VOICE-ASSISTANT/test.ipynb
+ALICE-CORE/__pycache__
+ALICE-CORE/.venv
+ALICE-CORE/.env
+ALICE-CORE/utils/__pycache__
+ALICE-CORE/FT-data.json
+ALICE-CORE/temp.txt
+ALICE-CORE/test.ipynb
