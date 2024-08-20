@@ -63,12 +63,7 @@ The power of **ALICE v2** is now at your fingertips within **Visual Studio Code*
    - Set up your API Keys in the `.env` file.
      
 2. **Getting Started**:
-   - Open VSCode and activate **ALICE** with the command palette or by simply speaking the wake word "ALICE" followed by your prompt to start interacting.
-
-### 🚀 Commands:
-- **ALICE: Wake**: Activate ALICE to start listening to commands.
-- **ALICE: Play Music**: Start music playback within VSCode.
-- **ALICE: Manage Tasks**: Sync and manage your tasks via Todoist.
+   - Open VSCode and activate **ALICE** with the command palette with the **start ALICE** command and by simply speaking the wake word "ALICE" followed by your prompt to start interacting.
 
 ---
 
